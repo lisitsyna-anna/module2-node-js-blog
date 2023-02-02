@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 require('dotenv').config();
-const { postsRouter } = require('./routers/postsRouter');
+const { postsRouter } = require('./src/routers/postsRouter');
 
 const app = express();
 const PORT = process.env.PORT || 8081;
